@@ -10,3 +10,8 @@ jobs:
       # and run all Cypress tests
       - name: Cypress run
         uses: cypress-io/github-action@v2
+        with:
+          start: npm run develop
+          wait-on: "http://localhost:8000"
+          browser: chrome
+          headless: true
