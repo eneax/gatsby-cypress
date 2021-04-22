@@ -6,7 +6,7 @@ module.exports = {
       summary: `who lives and works in Berlin building useful things.`,
     },
     description: `A starter blog demonstrating what Gatsby and Cypress can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    siteUrl: `https://gatsby-cypress.vercel.app`,
     social: {
       twitter: `eneaxharja`,
     },
@@ -51,12 +51,6 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    // {
-    //   resolve: `gatsby-plugin-google-analytics`,
-    //   options: {
-    //     trackingId: `ADD YOUR TRACKING ID HERE`,
-    //   },
-    // },
     {
       resolve: `gatsby-plugin-feed`,
       options: {
@@ -112,8 +106,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `GatsbyJS`,
+        name: `Gatsby Cypress`,
+        short_name: `Gatsby-Cy`,
         start_url: `/`,
         background_color: `#ffffff`,
         theme_color: `#663399`,
@@ -122,9 +116,5 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
-    `gatsby-plugin-gatsby-cloud`,
-    // this (optional) plugin enables Progressive Web App + Offline functionality
-    // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
   ],
 }
