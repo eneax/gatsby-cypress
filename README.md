@@ -7,7 +7,7 @@
   Gatsby Cypress
 </h1>
 
-A starter blog demonstrating what Gatsby, Cypress, Vercel and GitHub Actions can do.
+A starter blog demonstrating what Gatsby, [Cypress](https://www.cypress.io/), Vercel and [GitHub Actions](https://github.com/features/actions) can do.
 
 ## 🧐 What's inside?
 
